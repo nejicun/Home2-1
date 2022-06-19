@@ -1,0 +1,46 @@
+.App {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 960px;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-self: flex-end
+  
+}
+
+.Card {
+  width: 30%;
+  align-self:flex-start;
+  margin: 10px;
+  flex-basis:content;
+}
+
+
+.Card img {
+  width: 300px;
+}
+.filters {
+display: flex;
+margin: auto;
+}
+.filter { 
+  border: 1px solid black;
+  width: 200px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.select {
+  background-color: aquamarine;
+}
